@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Test_JDBC_MID" max_length="40" name="x_58872_needit_customer" type="collection">
+        <element attributes="import_attribute_name=CompanyName,edge_encryption_enabled=true" label="CompanyName" max_length="128" name="u_companyname" type="string"/>
+        <element attributes="import_attribute_name=CustomerID" label="CustomerID" max_length="40" name="u_customerid" type="integer"/>
+        <element attributes="import_attribute_name=EmailAddress,edge_encryption_enabled=true" label="EmailAddress" max_length="50" name="u_emailaddress" type="string"/>
+        <element attributes="import_attribute_name=FirstName,edge_encryption_enabled=true" label="FirstName" max_length="50" name="u_firstname" type="string"/>
+        <element attributes="import_attribute_name=LastName,edge_encryption_enabled=true" label="LastName" max_length="50" name="u_lastname" type="string"/>
+        <element attributes="import_attribute_name=MiddleName,edge_encryption_enabled=true" label="MiddleName" max_length="50" name="u_middlename" type="string"/>
+        <element attributes="import_attribute_name=ModifiedDate" label="ModifiedDate" max_length="40" name="u_modifieddate" type="datetime"/>
+        <element attributes="import_attribute_name=NameStyle,edge_encryption_enabled=true" label="NameStyle" max_length="40" name="u_namestyle" type="string"/>
+        <element attributes="import_attribute_name=PasswordHash,edge_encryption_enabled=true" label="PasswordHash" max_length="128" name="u_passwordhash" type="string"/>
+        <element attributes="import_attribute_name=PasswordSalt,edge_encryption_enabled=true" label="PasswordSalt" max_length="40" name="u_passwordsalt" type="string"/>
+        <element attributes="import_attribute_name=Phone,edge_encryption_enabled=true" label="Phone" max_length="40" name="u_phone" type="string"/>
+        <element attributes="import_attribute_name=rowguid" label="rowguid" max_length="40" name="u_rowguid" type="char"/>
+        <element attributes="import_attribute_name=SalesPerson,edge_encryption_enabled=true" label="SalesPerson" max_length="256" name="u_salesperson" type="string"/>
+        <element attributes="import_attribute_name=Suffix,edge_encryption_enabled=true" label="Suffix" max_length="40" name="u_suffix" type="string"/>
+        <element attributes="import_attribute_name=Title,edge_encryption_enabled=true" label="Title" max_length="40" name="u_title" type="string"/>
+    </element>
+</database>
